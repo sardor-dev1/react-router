@@ -1,0 +1,19 @@
+.student__list {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-gap: 10px;
+  padding: 20px 0;
+  &__item {
+    width: 100%;
+    a {
+      width: 100%;
+      display: block;
+      border: 1px solid #cccc;
+      padding: 3px;
+
+      &:active {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+}
